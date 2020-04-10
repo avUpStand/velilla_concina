@@ -42,7 +42,29 @@ export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios', 
+    ['nuxt-i18n', {
+      locales:[
+        {
+          code: 'en',
+          name: 'English'
+        },
+        {
+          code: 'es',
+          name: 'Español'
+        },
+        {
+          code: 'de',
+          name: 'Deutsch' 
+
+        }
+      ],
+      strategy: 'prefix', 
+      defaultLocale: 'en',
+      detectBrowserLanguange: {
+        useCookie: false
+      },
+    }]
   ],
   /*
    ** Axios module configuration
