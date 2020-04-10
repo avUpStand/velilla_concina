@@ -59,9 +59,9 @@ export default {
 
         }
       ],
-      strategy: 'prefix', 
+      strategy: 'prefix_except_default', 
       defaultLocale: 'en',
-      detectBrowserLanguange: {
+      detectBrowserLanguage: {
         useCookie: false
       },
     }]
