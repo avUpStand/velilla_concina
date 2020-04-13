@@ -55,13 +55,13 @@ export default {
           name: 'Español'
         },
         {
-          code: 'de',
-          name: 'Deutsch' 
+          code: 'ca',
+          name: 'Catalan' 
 
         }
       ],
       strategy: 'prefix_except_default', 
-      defaultLocale: 'en',
+      defaultLocale: 'es',
       detectBrowserLanguage: {
         useCookie: false
       },
