@@ -44,6 +44,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios', 
     ['nuxt-i18n', {
+      vueI18nLoader: true,
       locales:[
         {
           code: 'en',
